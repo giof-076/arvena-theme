@@ -1,0 +1,34 @@
+{
+  "current": "Default",
+  "presets": {
+    "Default": {
+      "color_bg": "#0A0A0A",
+      "color_surface": "#141414",
+      "color_text": "#F5F5F5",
+      "color_text_secondary": "#999999",
+      "color_accent": "#FFFFFF",
+      "color_accent_hover": "#E0E0E0",
+      "color_border": "#2A2A2A",
+      "color_sale": "#FFFFFF",
+      "color_sold_out": "#666666",
+      "font_heading": "helvetica_n4",
+      "font_body": "helvetica_n4",
+      "font_size_base": 16,
+      "logo_width": 160,
+      "sticky_header": true,
+      "footer_tagline": "STREET CULTURE",
+      "footer_about": "<p>Arvena is dé bestemming voor premium streetwear. Wij brengen de rauwe energie van de straat samen met tijdloze stijl.</p>",
+      "show_social_icons": true,
+      "social_instagram": "https://instagram.com/arvena",
+      "social_tiktok": "https://tiktok.com/@arvena",
+      "cart_type": "drawer",
+      "show_cart_note": true,
+      "products_per_page": 24,
+      "columns_desktop": "4",
+      "columns_mobile": "2",
+      "show_secondary_image": true,
+      "show_vendor": false,
+      "enable_quick_add": true
+    }
+  }
+}

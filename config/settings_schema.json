@@ -1,0 +1,268 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Arvena",
+    "theme_version": "1.0.0",
+    "theme_author": "Arvena",
+    "theme_documentation_url": "https://arvena.nl",
+    "theme_support_email": "info@arvena.nl"
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Kleuren"
+      },
+      {
+        "type": "color",
+        "id": "color_bg",
+        "label": "Achtergrond",
+        "default": "#0A0A0A"
+      },
+      {
+        "type": "color",
+        "id": "color_surface",
+        "label": "Kaarten / Oppervlak",
+        "default": "#141414"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Tekst",
+        "default": "#F5F5F5"
+      },
+      {
+        "type": "color",
+        "id": "color_text_secondary",
+        "label": "Secundaire tekst",
+        "default": "#999999"
+      },
+      {
+        "type": "color",
+        "id": "color_accent",
+        "label": "Accentkleur",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "color",
+        "id": "color_accent_hover",
+        "label": "Accent hover",
+        "default": "#E0E0E0"
+      },
+      {
+        "type": "color",
+        "id": "color_border",
+        "label": "Randen",
+        "default": "#2A2A2A"
+      },
+      {
+        "type": "color",
+        "id": "color_sale",
+        "label": "Sale badge",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "color",
+        "id": "color_sold_out",
+        "label": "Sold out badge",
+        "default": "#666666"
+      }
+    ]
+  },
+  {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Typografie"
+      },
+      {
+        "type": "font_picker",
+        "id": "font_heading",
+        "label": "Koppen",
+        "default": "helvetica_n4"
+      },
+      {
+        "type": "font_picker",
+        "id": "font_body",
+        "label": "Body",
+        "default": "helvetica_n4"
+      },
+      {
+        "type": "range",
+        "id": "font_size_base",
+        "label": "Basis lettergrootte",
+        "default": 16,
+        "min": 14,
+        "max": 20,
+        "step": 1,
+        "unit": "px"
+      }
+    ]
+  },
+  {
+    "name": "Header",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Header"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo"
+      },
+      {
+        "type": "range",
+        "id": "logo_width",
+        "label": "Logo breedte",
+        "default": 160,
+        "min": 60,
+        "max": 400,
+        "step": 10,
+        "unit": "px"
+      },
+      {
+        "type": "checkbox",
+        "id": "sticky_header",
+        "label": "Sticky header",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "Footer",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Footer"
+      },
+      {
+        "type": "text",
+        "id": "footer_tagline",
+        "label": "Footer slogan",
+        "default": "STREET CULTURE"
+      },
+      {
+        "type": "richtext",
+        "id": "footer_about",
+        "label": "Over Arvena",
+        "default": "<p>Arvena is dé bestemming voor premium streetwear. Wij brengen de rauwe energie van de straat samen met tijdloze stijl.</p>"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_social_icons",
+        "label": "Toon social media iconen",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "Social Media",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Social Media"
+      },
+      {
+        "type": "text",
+        "id": "social_instagram",
+        "label": "Instagram",
+        "default": "https://instagram.com/arvena"
+      },
+      {
+        "type": "text",
+        "id": "social_tiktok",
+        "label": "TikTok",
+        "default": "https://tiktok.com/@arvena"
+      },
+      {
+        "type": "text",
+        "id": "social_youtube",
+        "label": "YouTube"
+      }
+    ]
+  },
+  {
+    "name": "Cart",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Winkelwagen"
+      },
+      {
+        "type": "select",
+        "id": "cart_type",
+        "label": "Winkelwagen type",
+        "default": "drawer",
+        "options": [
+          { "value": "drawer", "label": "Drawer (lade)" },
+          { "value": "page", "label": "Pagina" }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "show_cart_note",
+        "label": "Toon notitieveld",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "Product Grid",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Product weergave"
+      },
+      {
+        "type": "range",
+        "id": "products_per_page",
+        "label": "Producten per pagina",
+        "default": 24,
+        "min": 8,
+        "max": 48,
+        "step": 4
+      },
+      {
+        "type": "select",
+        "id": "columns_desktop",
+        "label": "Kolommen desktop",
+        "default": "4",
+        "options": [
+          { "value": "3", "label": "3" },
+          { "value": "4", "label": "4" }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "columns_mobile",
+        "label": "Kolommen mobiel",
+        "default": "2",
+        "options": [
+          { "value": "1", "label": "1" },
+          { "value": "2", "label": "2" }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "show_secondary_image",
+        "label": "Toon tweede afbeelding bij hover",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_vendor",
+        "label": "Toon merk",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_quick_add",
+        "label": "Snelle toevoeging",
+        "default": true
+      }
+    ]
+  }
+]
